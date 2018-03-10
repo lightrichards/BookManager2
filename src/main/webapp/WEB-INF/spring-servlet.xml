@@ -14,9 +14,9 @@
 
     <bean id="dataSousce" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
         <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
-        <property name="url" value="jdbc:mysql://sql11.freemysqlhosting.net:3306/sql11223044?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC"/>
-        <property name="username" value="sql11223044"/>
-        <property name="password" value="UH5162rvhJ"/>
+        <property name="url" value="jdbc:mysql://us-cdbr-gcp-east-01.cleardb.net:3306/gcp_cf6227e3e53d2838677c?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC"/>
+        <property name="username" value="b1d87b01611f93"/>
+        <property name="password" value="4b647a5f"/>
     </bean>
 
     <bean id="hibernate4AnnotatedSessionFactory"
